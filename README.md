@@ -10,8 +10,6 @@
 - [High-Level Design](wiki/System-Architecture.md) — implemented vs planned components
 - [Low-Level Design](wiki/Low-Level-Design.md) — functions and library dependencies
 - [Mermaid diagram sources](diagrams/) — editable `.mmd` files
-- [Validation report](docs/VALIDATION.md) — what was and was not tested
-- [Original supplied README](docs/ORIGINAL_README.md) — preserved for provenance
 
 ## Main source files
 
@@ -50,8 +48,9 @@ The publisher uses a fresh temporary Git checkout, previews changes, and asks yo
 
 ## Validation
 
-Run `python scripts/check-package.py`. It checks source presence/AST syntax, notebook JSON and code-cell syntax, Mermaid blocks, cross-page links, and Markdown pages. This project is licensed under the Apache License, Version 2.0.© 2026 Sudhanshu Shukla · Licensed under the Apache License, Version 2.0
-
+Run `python scripts/check-package.py`. It checks source presence/AST syntax, notebook JSON and code-cell syntax, Mermaid blocks, cross-page links, and Markdown pages. 
 ## Privacy and license
 
-Review before publishing; do not commit credentials, confidential examples, cached model weights, `.venv`, or large checkpoints. This project is licensed under the Apache License, Version 2.0.© 2026 Sudhanshu Shukla · Licensed under the Apache License, Version 2.0.
+Review before publishing; do not commit credentials, confidential examples, cached model weights, `.venv`, or large checkpoints. 
+
+This project is licensed under the Apache License, Version 2.0.© 2026 Sudhanshu Shukla · Licensed under the Apache License, Version 2.0.
