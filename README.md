@@ -36,7 +36,7 @@ The first run downloads the pretrained `distilbert-base-uncased` model unless it
 
 ## Editing the Wiki
 
-The published wiki is a separate Git repository at `https://github.com/su394611-del/Transformers-Training.wiki.git`. Edit individual pages using the GitHub Wiki editor, or clone the wiki with Git and push reviewed Markdown changes there. The normal code repository does not contain a `wiki/` or `scripts/publish-wiki.ps1` directory.
+The published wiki is a separate Git repository at `https://github.com/su394611-del/Transformers-Training.wiki.git`. Edit individual pages using the GitHub Wiki editor, or clone the wiki with Git and push reviewed Markdown changes there. The normal code repository does not contain a `wiki/` directory or a `scripts/publish-wiki.ps1` publisher script.
 
 ## Validation
 
